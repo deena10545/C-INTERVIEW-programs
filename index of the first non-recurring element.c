@@ -6,7 +6,7 @@ int main()
     int a[50],n,i,j;
     printf("Enter the no. of elements in the array:");
     scanf("%d",&n);
-    printf("Enter different array elements to find the index of the first non-recurring first ele :");
+    printf("Enter the array elements :");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
 
@@ -23,4 +23,8 @@ int main()
             break;
         }
     }
+    if(j==n)
+        printf("The index of the first element is found");
+    else
+        printf("there is no non-recurring element");
 }
