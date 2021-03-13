@@ -5,7 +5,7 @@
 int main()
 {
     char a[50];
-    int i,b=0,j=0,l=0,len=0,count;
+    int i,b=0,j=0,len=0,count;
     printf("Enter a string:");
     gets(a);
     i=0;
